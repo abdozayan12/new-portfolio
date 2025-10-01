@@ -25,6 +25,7 @@ const ProjectModals = ({
   const modalStyles = {
     overlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      zIndex: 9999,
     },
     content: {
       top: '50%',
@@ -38,6 +39,7 @@ const ProjectModals = ({
       display: 'flex',
       alignItems: 'center',
       width: '75%',
+      zIndex: 10000,
     },
     closeButton: {
       position: 'absolute',
